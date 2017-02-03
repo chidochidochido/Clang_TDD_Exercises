@@ -1,0 +1,17 @@
+﻿Build started 03/02/2017 05:24:35 p.m..
+     1>Project "D:\jgade-code\code\SandBox\src\ProductionCodeLib.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\include\util /I..\include\IO /I..\include\MyOS /I..\include\zune /I..\include\LedDriver /I..\include\HomeAutomation /I..\include\dvr /I"D:\cpputest-3.8/include" /I"D:\cpputest-3.8/include/Platforms/VisualCpp" /I../include/HomeAutomation /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt LedDriver\LedDriver.c
+         LedDriver.c
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:".\Debug\ProductionCodeLib.lib" /NOLOGO .\Debug\LedDriver.obj
+         ProductionCodeLib.vcxproj -> D:\jgade-code\code\SandBox\src\.\Debug\ProductionCodeLib.lib
+       PostBuildEvent:
+         copy Debug\ProductionCodeLib.lib ..\lib
+         :VCEnd
+                 1 file(s) copied.
+     1>Done Building Project "D:\jgade-code\code\SandBox\src\ProductionCodeLib.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.20

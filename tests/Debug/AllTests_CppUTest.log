@@ -1,0 +1,18 @@
+﻿Build started 03/02/2017 05:24:35 p.m..
+     1>Project "D:\jgade-code\code\SandBox\tests\AllTests_CppUTest.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\mocks /I..\include\util /I..\include\IO /I..\include\MyOS /I..\include\zune /I..\include\LedDriver /I..\include\HomeAutomation /I..\include\dvr /I"D:\cpputest-3.8/include" /I"D:\cpputest-3.8/include/Platforms/VisualCpp" /I../include/HomeAutomation /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc110.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt LedDriver\LedDriverTest.cpp
+         LedDriverTest.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\AllTests_CppUTest.exe" /INCREMENTAL /NOLOGO "D:\cpputest-3.8\lib\CppUTestd.lib" odbc32.lib odbccp32.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\Debug\AllTests_CppUTest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\AllTests_CppUTest.lib" /MACHINE:X86 /SAFESEH .\Debug\AllTests.obj
+         .\Debug\LedDriverTest.obj
+         "D:\jgade-code\code\SandBox\src\Debug\ProductionCodeLib.lib"
+     1>AllTests.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+         AllTests_CppUTest.vcxproj -> D:\jgade-code\code\SandBox\tests\.\Debug\AllTests_CppUTest.exe
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\bscmake.exe /nologo /o".\Debug\AllTests_CppUTest.bsc" .\Debug\AllTests.sbr .\Debug\LedDriverTest.sbr
+     1>Done Building Project "D:\jgade-code\code\SandBox\tests\AllTests_CppUTest.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.51
